@@ -1,0 +1,91 @@
+/* تقييد التدفق الأفقي */
+body {
+    overflow-x: hidden;
+}
+
+/* خصائص الحاوية الأساسية */
+.book-container {
+    margin-top: 40%;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 16px;
+    margin: 20px;
+    text-align: center;
+    transition: transform 0.5s;
+}
+
+/* تأثير عند تمرير الماوس على البطاقة */
+.book-card:hover {
+    transform: scale(1.1);
+}
+
+/* خصائص الصورة */
+.book-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 4px;
+}
+
+/* عنوان الكتاب */
+.book-title {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+}
+
+/* اسم المؤلف */
+.book-author {
+    font-size: 18px;
+    color: #666;
+}
+
+/* وصف الكتاب */
+.book-description {
+    font-size: 16px;
+    color: #555;
+}
+
+/* خصائص الحاوية والمحتوى */
+.book-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.book-card {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+    padding: 15px;
+    width: calc(25% - 20px); /* أربعة عناصر في الصف الواحد */
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+/* الصورة داخل البطاقة */
+.book-card img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 4px;
+}
+
+/* نقاط التوقف للأجهزة اللوحية */
+@media (max-width: 1024px) {
+    .book-card {
+        width: calc(33.33% - 20px); /* ثلاثة عناصر في الصف الواحد */
+    }
+}
+
+/* نقاط التوقف للأجهزة المحمولة */
+@media (max-width: 768px) {
+    .book-card {
+        width: calc(100% - 20px); /* عنصران في الصف الواحد */
+    }
+}
+
+/* نقاط التوقف للأجهزة الصغيرة جدًا */
+@media (max-width: 480px) {
+    .book-card {
+        width: 100%; /* عنصر واحد في الصف */
+    }
+}

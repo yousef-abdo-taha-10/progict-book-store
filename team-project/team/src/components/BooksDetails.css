@@ -1,0 +1,45 @@
+/* CSS للعنصر الكامل */
+.book {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #f9f9f9;
+    text-align: center;
+  }
+  
+  /* عنوان الكتاب */
+  .book h1 {
+    font-size: 1.8em;
+    color: #333;
+    margin-bottom: 15px;
+  }
+  
+  /* صورة الكتاب */
+  .book img {
+    width: 200px;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 15px;
+  }
+  
+  /* المؤلف وتاريخ النشر */
+  .book p {
+    font-size: 1.1em;
+    color: #555;
+    margin: 8px 0;
+  }
+  
+  .book p strong {
+    color: #333;
+  }
+  
+  /* تنسيق الوصف */
+  .book p:last-of-type {
+    margin-top: 15px;
+    line-height: 1.6;
+    color: #666;
+  }
+  

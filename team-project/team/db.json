@@ -1,0 +1,94 @@
+{
+  "books": [
+    {
+      "id": 1,
+      "title": "To Kill a Mockingbird",
+      "author": "Harper Lee",
+      "published_year": 1960,
+      "genre": "Fiction",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS0yoFDMHRu0omTsHfo_zBz2OI1ZlUtWHNqmHbeKb2Wj-PjNjbW0C5JalyEriz8PJkEqwU&usqp=CAU",
+      "description": "A novel about the serious issues of rape and racial inequality, told through the young eyes of Scout Finch in the Deep South."
+    },
+    {
+      "id": 2,
+      "title": "1984",
+      "author": "George Orwell",
+      "published_year": 1949,
+      "genre": "Dystopian",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTpWKruPtkNn4Yfe0whwqwbLTUJvULznsibuPA8tXwgC_ATaJQa9jRX7x0NJerM9Xn4qSg&usqp=CAU",
+      "description": "A dystopian social science fiction novel that presents a terrifying vision of a totalitarian regime in a perpetual state of war."
+    },
+    {
+      "id": 3,
+      "title": "The Great Gatsby",
+      "author": "F. Scott Fitzgerald",
+      "published_year": 1925,
+      "genre": "Classic",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSA-GpxE2dqUmp3f5sSt_U1ZhDD5eAtFzSMorNJZadSx04dzjY_yg93wj9xiG9p3hrM3dY&usqp=CAU",
+      "description": "The story of the mysteriously wealthy Jay Gatsby and his love for the beautiful Daisy Buchanan, set in the Jazz Age of Long Island."
+    },
+    {
+      "id": 4,
+      "title": "The Catcher ",
+      "author": "J.D. Salinger",
+      "published_year": 1951,
+      "genre": "Fiction",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTzFPGO7ZDpCalmuGp2JmChhm6HzlnJ-66moHYavqyR9cwQnTnhUKfGP-CANmFAJdQ_w9s&usqp=CAU",
+      "description": "A story about adolescent alienation and loss of innocence, as told by the disaffected Holden Caulfield."
+    },
+    {
+      "id": 5,
+      "title": "Pride and Prejudice",
+      "author": "Jane Austen",
+      "published_year": 1813,
+      "genre": "Romance",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSEGPcvZej-y3mcJTCnX5oFjjOWq0FEfr_RZk0f4gGROZdJirBPqOrYCm4fbevZmCrJICg&usqp=CAU",
+      "description": "A classic novel that deals with issues of class, marriage, morality, and personal growth in 19th-century England."
+    },
+    {
+      "id": 6,
+      "title": "The Hobbit",
+      "author": "J.R.R. Tolkien",
+      "published_year": 1937,
+      "genre": "Fantasy",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTBbDn4w46mF28OFGseu9531FyV2_atfmIh0eQSPTFARqS9Pf6VG757JHPERztDMds26mM&usqp=CAU",
+      "description": "A fantasy adventure about the journey of Bilbo Baggins, who is swept into an epic quest to reclaim a lost Dwarf Kingdom."
+    },
+    {
+      "id": 7,
+      "title": "Moby Dick",
+      "author": "Herman Melville",
+      "published_year": 1851,
+      "genre": "Adventure",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSfOO65mpd9lNIt8yyJM2kOIwRWe__0xA0nKXWqWhZH-wwusG99lAl8t7fl7R8sK3RkpuA&usqp=CAU",
+      "description": "An epic tale of the voyage of the whaling ship Pequod and its Captain Ahab's obsessive quest to kill the giant white whale, Moby Dick."
+    },
+    {
+      "id": 8,
+      "title": "Eval Under Sun ",
+      "author": "J.R.R. Tolkien",
+      "published_year": 1954,
+      "genre": "Fantasy",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSpg5NQaFZkPmAAJVsnaoMmC8-n2DfQXumBdRIK-1khyJoxwkkQ98Q5e4t9Vh2lCSlZjis&usqp=CAU",
+      "description": "The first volume in the epic fantasy series, where Frodo Baggins sets off on a journey to destroy the One Ring and defeat the dark lord Sauron."
+    },
+    {
+      "id": 9,
+      "title": "War and Peace",
+      "author": "Leo Tolstoy",
+      "published_year": 1869,
+      "genre": "Historical Fiction",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTt5bhBhDhawgbsxaIhAxQBaHFcqaclASJMeieb_Sh9jYhF-yicAncePo9WEUrsQ3V6Y1o&usqp=CAU",
+      "description": "A sweeping novel that interweaves the lives of several families during the Napoleonic Wars and explores themes of war, politics, and love."
+    },
+    {
+      "id": 10,
+      "title": "Frankenstein",
+      "author": "Mary Shelley",
+      "published_year": 1818,
+      "genre": "Horror",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSroeBlRBLjoOzgRDkoIPHJiEJRrrQIuBi1vOonrk5KpupYbnCqfcWFqjF95Gq8id2Z5C0&usqp=CAU",
+      "description": "A Gothic novel that tells the story of Victor Frankenstein, a young scientist who creates a grotesque creature in an unorthodox experiment."
+    }
+  ]
+}
