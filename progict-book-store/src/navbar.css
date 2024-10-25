@@ -1,0 +1,39 @@
+/* محاذاة عناصر القائمة في الوسط */
+.navbar .navbar-nav {
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 70px;
+   
+}
+
+/* توسيط الروابط وتنسيق المسافات */
+.navbar-nav .nav-link {
+    padding: 0 1rem;
+}
+
+/* وضع شريط البحث في أقصى اليمين */
+.ml-auto {
+    margin-left: auto;
+    display: flex;
+ 
+}
+
+/* عرض صندوق البحث */
+.navbar .form-inline .form-control {
+    width: 250px; 
+    display: flex;
+  
+    /* يمكنك تعديله حسب الحاجة */
+}
+
+.navbar .btn {
+    padding: 0.4rem 1rem;
+    margin-left: 5px;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
